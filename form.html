@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Sample</title>
+</head>
+
+<body>
+    <p>How much time do you spend in social networks?</p>
+    <fieldset>
+        <legend>Personal information</legend>
+    <form method="POST" action="mail.php">
+        <label for="firstname">First name:</label>
+        <br>
+        <input type="text" name="firstname" id="firstname">
+        <br>
+        <label>Last Name:
+        <br>
+        <input type="text" name="lastname">
+        </label>
+        <br>
+        <label>Client Email:
+        <br>
+            <input type="email" name="clientemail" required>
+        </label>
+        <br><br>
+        <input type="submit" value="Submit">
+        <br><br>
+    </form>
+    </fieldset>
+    <p>You spend time in SN:</p>
+    <form method="POST" action="mail.php">
+  <input type="radio" name="gender" value="1 day a week" checked> 1 day a week<br>
+  <input type="radio" name="gender" value="2 days a week"> 2 days a week<br>
+  <input type="radio" name="gender" value="Everyday"> Everyday
+</form>
+
+</body>
+
+</html>
